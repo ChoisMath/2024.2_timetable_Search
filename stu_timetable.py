@@ -3,6 +3,7 @@ import requests
 import xml.etree.ElementTree as ET
 import pandas as pd
 from datetime import datetime
+import openpyxl
 
 st.header('시간표 확인')
 # 1. 학생별 강의실 정보 로드
