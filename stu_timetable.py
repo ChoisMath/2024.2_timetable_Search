@@ -6,11 +6,11 @@ from datetime import datetime
 
 st.header('시간표 확인')
 # 1. 학생별 강의실 정보 로드
-file_path = '2024.2학기 학생별 강의실.xlsx'
+file_path = './2024.2학기 학생별 강의실.xlsx'
 student_data = pd.read_excel(file_path, dtype={'학번': str})
 
 # Streamlit 사이드바 입력
-st.sidebar.header('2024\.2학기 대구과학고')
+st.sidebar.header('2024.2학기 대구과학고')
 
 # 학생 학번 입력
 student_id = st.sidebar.text_input('학생 학번을 입력하세요')
