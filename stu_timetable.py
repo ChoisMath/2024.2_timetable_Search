@@ -320,7 +320,7 @@ all_ti_ymd = st.sidebar.text_input('ALL_TI_YMD', value=today, placeholder=today)
 atpt_ofcdc_sc_code = st.sidebar.text_input('교육청코드', value='D10', placeholder='D10')
 sd_schul_code = st.sidebar.text_input('학교번호', value='7240060', placeholder='7240060')
 
-st.sidebar.text("학생의 강의실 정보 Excel파일로 만들어서 업로드 합니다.")
+st.sidebar.text("학교 및 학기가 변경되면 학생의 강의실 정보를 수정해야 합니다.")
 
 # 조회 버튼
 if st.sidebar.button('시간표 조회'):
