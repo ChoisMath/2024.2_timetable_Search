@@ -378,7 +378,7 @@ if st.sidebar.button('시간표 조회'):
     df_grouped = df.groupby('교시')['과목'].apply(lambda x: ', '.join(x)).reset_index()
 
     # 시간표 출력
-    st.subheader(f"{student_id} 학생의 {all_ti_ymd} 시간표")
+    st.subheader(f"{all_ti_ymd}일  {student_id} 학생의 시간표")
     st.dataframe(df_grouped)
 
 else:
